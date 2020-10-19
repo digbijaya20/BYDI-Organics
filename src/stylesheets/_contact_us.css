@@ -1,0 +1,133 @@
+
+ .style-main-container {
+    display: flex;
+    flex-flow: row wrap;
+    
+    justify-content:center;
+  
+   }
+  
+   .style-form-container{
+    
+    padding: 1rem 10rem;
+    width: 70%;
+  
+   }
+   .style-main-heading{
+        font-size: 20px;
+        font-weight: 700;
+        color: #212121;
+        padding: .5rem;
+   }
+  
+   .style-input-row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin: .25rem 0;
+  }
+  
+   .style-input-name {
+    flex: 1 1;
+    padding: 0 .5rem;
+    min-width: 240px;
+    margin-bottom: .5rem;
+   }
+  
+   .style-input-row input .style-input-row textarea {
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: none;
+    padding: .7rem;
+    border: 0;
+    width: 100%;
+   }
+  
+   button, input, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+  } 
+  
+   input[type=password], input[type=text] {
+    width: 100%; 
+     box-shadow: 0 0 2px #ccc; 
+     height: 50px;
+     padding: 5px; 
+    border: 1px #ddd solid; 
+    transition: box-shadow .5s linear 0;
+   }
+  
+    input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+  
+  .style-input-phone {
+      flex: 1;
+      padding: 0 .5rem;
+      min-width: 240px;
+      margin-bottom: .5rem;
+  }
+  
+  .style-input-email {
+    flex:  1;
+    padding: 0 .5rem;
+    min-width: 240px;
+  }
+  input[type= email] {
+    padding: 5px;
+    border: 1px #ddd solid; 
+    height: 50px;
+    text-align: left;
+    
+  }
+  
+  input[type=submit]{
+    padding:10px;
+    background-color:#85B80B;
+    color:white;
+  }
+  input[type=submit]:hover{
+    cursor: pointer;
+  }
+  
+  .style-input-query {
+    padding: 0 .5rem;
+    width: 100%;
+  }
+  
+  .style-input-row textarea {
+    resize: none;
+  }
+  
+  .style-input-query-box {
+    max-height: 9rem;
+    text-align: left;
+    margin-top: 0.7rem;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 0 2px #ccc;
+    padding: 5px;
+    overflow: auto;
+    border: 1px #ddd solid;
+    transition: all .5s linear 0;
+  }
+  
+  
+  
+  input {
+    display: block;
+    padding: 12px 14px;
+    border-radius: 0;
+    border: 1px solid #e3e3e3;
+    width: 100%;
+    line-height: normal;
+    transition: border-color 0.1s ease-in-out;
+    background: #fff;
+  
+  }

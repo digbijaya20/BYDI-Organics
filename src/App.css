@@ -1,38 +1,316 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+ /* ABout us Style*/
+
+ .page-wrapper>.page-main .column.main {
+  width: 100%!important;
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+.column.main {
+  min-height: auto;
+}
+.columns .column.main {
+  max-width: 100%;
+}
+ .page-main {
+  max-width: 100%;
+  padding: 30px 0 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  
+}
+.columns {
+
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+.aboutus .content-part {
+  margin-bottom: 30px;
+}
+h3 {
+  font-weight: 300;
+  line-height: 1.1;
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.benfirst {
+  background: #fbfbfb;
+  padding: 25px;
+  min-height: 100%;
+  margin: 4rem;
+}
+.benscnd {
+  background: #f9f9f9;
+  padding: 25px;
+  min-height: 100%;
+  margin: 4rem;
+}
+
+
+/* Your Order*/
+
+#yourOrders {
+  margin: 0 auto;
+  width: 920px;
+  position: relative;
+}
+
+#yourOrdersContent {
+  width: 932px;
+}
+
+.a-section {
+  margin-bottom: 22px;
+}
+
+.a-spacing-top-small {
+  margin-top: 8px!important;
+}
+
+
+.a-row .a-span6, .a-ws .a-row .a-ws-span6 {
+  width: 48.948%;
+}
+.a-ws div.a-column, div.a-column {
+  margin-right: 2%;
+  float: left;
+  min-height: 1px;
+  overflow: visible;
+}
+
+.a-spacing-medium, .a-ws .a-ws-spacing-medium {
+  margin-bottom: 16px!important;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+}
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+h1:last-child, h2:last-child, h3:last-child, h4:last-child {
+  padding-bottom: 0;
+}
+
+.a-ws .a-ws-span12, div.a-column.a-span-last {
+  margin-right: 0;
+  float: right;
+}
+
+.a-row .a-span6, .a-ws .a-row .a-ws-span6 {
+  width: 48.948%;
+}
+
+.a-ws div.a-column, div.a-column {
+  margin-right: 2%;
+  float: left;
+  min-height: 1px;
+  overflow: visible;
+}
+.search-bar {
+  display: table;
+}
+.a-spacing-medium, .a-ws .a-ws-spacing-medium {
+  margin-bottom: 16px!important;
+}
+
+.search-bar .form-container {
+  display: table-row;
+}
+form {
+  margin-bottom: 14px;
+}
+
+.search-bar .button-container, .search-bar .field-container {
+  display: table-cell;
+}
+.a-row {
+  width: 90%;
+}
+.a-row:after, .a-row:before {
+  display: table;
+  content: "";
+  line-height: 0;
+  font-size: 0;
+}
+.a-row:after {
+  clear: both;
+}
+
+.a-row:after, .a-row:before {
+  display: table;
+  content: "";
+  line-height: 0;
+  font-size: 0;
+}
+
+.search-bar .label {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.a-form-label {
+  font-weight: 700;
+}
+label, legend {
+  display: block;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  font-weight: 700;
+}
+.a-search {
+  position: relative;
+  display: inline-block;
+}
+.a-search .a-icon-search {
+  position: absolute;
+  top: 50%;
+  margin-top: -7px;
+  left: 10px;
+}
+.a-icon-search {
+  opacity: .55;
+  width: 13px;
+  height: 13px;
+  background-position: -271px -86px;
+}
+.a-icon {
+  display: inline-block;
+  vertical-align: top;
+}
+.a-icon, .a-link-emphasis:after {
+  background-image: url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIIcon-sprite_1x-e943461…._V2_.png);
+  
+  background-size: 400px 900px;
+  background-repeat: no-repeat;
+}
+.a-search input {
+  padding-left: 29px;
+}
+.a-input-text, input[type=text], input[type=search], input[type=number], input[type=tel], input[type=password], input[type=date], input[type=email] {
+  background-color: #fff;
+  height: 31px;
+  padding: 3px 7px;
+  line-height: normal;
+}
+.a-input-text, input[type=text], input[type=search], input[type=number], input[type=tel], input[type=password], select.a-select-multiple, textarea {
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+  outline: 0;
+}
+
+.search-bar .button-container {
+  padding-left: 10px;
+}
+.a-button-dark, .a-button-search {
+  background: #444C55;
+  border-color: #3d444c #2f353b #2c3137;
+  color: #fff;
+}
+.a-button {
+  background: #e7e9ec;
+  border-radius: 3px;
+  border-color: #ADB1B8 #A2A6AC #8D9096;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  text-decoration: none!important;
+  vertical-align: middle;
+}
+.a-button-dark .a-button-inner, .a-button-search .a-button-inner {
+  background: #5b626a;
+  background: -webkit-linear-gradient(top,#72787F,#444C55);
+  background: linear-gradient(to bottom,#72787F,#444C55);
+}
+.a-button-inner {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 29px;
+  box-shadow: 0 1px 0 rgba(255,255,255,.6) inset;
+  border-radius: 2px;
+}
+.a-button {
+  background: #e7e9ec;
+  border-radius: 3px;
+  border-color: #ADB1B8 #A2A6AC #8D9096;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  text-decoration: none!important;
+  vertical-align: middle;
+}
+button, input[type=button], input[type=reset], input[type=submit] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+.a-button-input {
+  position: absolute;
+  background-color: transparent;
+  color: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: .01;
+  outline: 0;
+  overflow: visible;
+  z-index: 20;
+}
+.a-button-dark .a-button-text, .a-button-search .a-button-text {
+  font-weight: 700;
+  color: #fff;
+}
+.a-button-text {
+  background-color: transparent;
+  border: 0;
+  display: block;
+  font-size: 13px;
+  line-height: 29px;
+  margin: 0;
+  outline: 0;
+  padding: 0 10px 0 11px;
+  text-align: center;
+  white-space: nowrap;
 }
